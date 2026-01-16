@@ -1,6 +1,6 @@
 
 import streamlit as st
-import google.generativeai as genai
+import genai.GenerativeModel('gemini-1.5-flash')
 from gtts import gTTS
 import base64
 
